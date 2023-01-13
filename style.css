@@ -1,0 +1,78 @@
+#page-title{
+    margin-bottom: 1%;
+    padding-top: 1%;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 30px;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 70vh;
+    overflow-y: auto;
+    border-style: outset;
+    box-shadow:  5px 5px 5px 5px silver;
+    padding: 10px;
+    background: rgba(220, 235, 191, 0.377);
+}
+
+#preview {
+    height: 70vh;
+    word-wrap: break-word;
+    overflow-y: auto;
+    
+    border-style: outset;
+    box-shadow:  5px 5px 5px 5px silver;
+    padding: 10px;
+    background: rgba(245, 244, 192, 0.411);
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+  }
+
+ table td,th {
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+blockquote {
+    border-left-style: solid;
+    border-width: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+    background: rgb(240, 241, 229);
+}
+
+pre {
+    background: rgb(220, 221, 214);
+    border-style: inset;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+code {
+    background: rgb(220, 221, 214);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid black;
+}
+
+.title {
+    background: rgb(54, 161, 111);
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    border-left: 2px double black;
+    border-right: 2px double black;
+    border-radius: 20px;
+    font-weight: bold;
+}
