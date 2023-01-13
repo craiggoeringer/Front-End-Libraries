@@ -1,0 +1,47 @@
+body {
+  background: #ffd700;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.buttons-and-value {
+  display: grid;
+  grid-gap: -10px;
+  font-size: 2em;
+}
+
+.button {
+  border-radius: 3px;
+  vertical-align: middle;
+  line-height: normal;
+  &:hover {
+    background-color: #00000055;  
+  }
+}
+
+#time-left {
+  font-size: 8.5em;
+}
+
+#indicator {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#footer {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0px;
+}
